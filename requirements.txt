@@ -1,0 +1,7 @@
+# 本项目仅使用 Python 标准库（urllib / json / argparse / re / datetime），
+# 无需安装任何第三方依赖。
+#
+# Python 版本要求：3.8+
+#
+# 之所以坚持零依赖：MCP 客户端的 Streamable HTTP + JSON-RPC 握手
+# 用标准库就能完整实现，装依赖反而增加上手门槛与供应链风险。
